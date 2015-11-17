@@ -1,4 +1,5 @@
 SET client_min_messages TO WARNING;
+
 DROP FUNCTION IF EXISTS get_validation_rule(
  data_validation.id%TYPE
 ,data_validation.category%TYPE
